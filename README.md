@@ -12,4 +12,4 @@ Then install the environment referring to the guidance of SAM.
 
     python main.py --image_dir /Path/To/Image/Folder/ --output_dir /Path/To/Save/Masks/ --sam_checkpoint /Path/To/SAM/Checkpoint/
 
-Then the script will load the image files in image_dir one by one and show them with an interactive window. Use mouse to drag a bounding box from the upperleft to the bottomright corner of your interested object, then press the "q" button on keyboard. The Segment-Anything model will take the bounding box and the image as input and predict a segmentation mask.
+Then the script will load the image files in image_dir one by one and show them with an interactive window. Use mouse to drag a bounding box from the upperleft to the bottomright corner of your interested object, then press the "Q" button on keyboard. The Segment-Anything model will take the bounding box and the image as input and predict a segmentation mask.
